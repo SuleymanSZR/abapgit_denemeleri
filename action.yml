@@ -1,6 +1,6 @@
 name: "Find and Replace"
 description: "Find and replace a string in your project files"
-author: "Süleyman SEZER"
+author: "Suleyman SEZER"
 inputs:
   include:
     description: "A glob of files to include in our find and replace"
@@ -24,4 +24,4 @@ outputs:
     description: "The number of files which have been modified"
 runs:
   using: "docker"
-  image: "docker://ghcr.io/SuleymanSZR/abapgit_denemeleri:2.0.0"
+  image: "docker://ghcr.io/SuleymanSZR/abapgit_denemeleri:3.0.0"
